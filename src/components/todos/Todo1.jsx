@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Todo1list from './Todo1list'
 import {v4 as uuidv4} from "uuid"
-import {TiArrowSortedDown,TiArrowSortedUp} from "react-icons/Ti"
+import {MdArrowDropDown,MdArrowDropUp} from "react-icons/Md"
 import {RiDeleteBin5Line} from "react-icons/Ri"
 
 const Todo1 = ({setList1,list1,handleDelete,handleremove}) => {
@@ -33,7 +33,7 @@ const Todo1 = ({setList1,list1,handleDelete,handleremove}) => {
           
         }} className="addinput">+</button><button onClick={()=>{
           setAddshow(!addshow)
-        }} className="showinput">{addshow ===true ? <TiArrowSortedDown size="30" className='yorrow'/>:<TiArrowSortedUp size="30" className='yorrow'/>}</button>
+        }} className="showinput">{addshow ===true ? <MdArrowDropDown size="30" className='yorrow'/>:<MdArrowDropUp size="30" className='yorrow'/>}</button>
         </div>
 
         
