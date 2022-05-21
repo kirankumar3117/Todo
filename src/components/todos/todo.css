@@ -1,0 +1,206 @@
+.maincontainer{
+    display: grid;
+}
+.icondelete{
+    background: white;
+    color: rgb(190, 77, 77);
+}
+
+/*left part*/
+.subcontainer1{
+    width:40%;
+    margin: auto;
+}
+.subcontainer1>div{
+    margin-top: 2%;
+    
+}
+.inputsection{
+    width:100%;
+    height:55px;
+   text-align:left;
+   overflow: hidden;
+  
+   
+}
+.input{
+    width:75%;
+    height:49px;
+    background-color: white;
+    outline: 0;
+    border: 0;
+    font-size: 23px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+}
+.addinput{
+    width:48px;
+    height:48px;
+    margin-left: 3.5%;
+    border: none;
+    background: white;
+    position: relative;
+    top:7%;
+    border-radius: 8px;
+    font-size: 33px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    cursor: pointer;
+    
+}
+.showinput{
+    width:48px;
+    height:48px;
+    position: relative;
+    top:13%;
+    margin-left: 2%;
+    border:none;
+    background: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.yorrow{
+    background: white;;
+}
+.leftlist{
+    /* border:1px solid blue; */
+   margin-top: 20%;
+   width:100%;
+   height:55vh;
+   overflow:auto;
+
+}
+.eachitem{
+    margin-top: 2.2%;
+    width:98%;
+    height:60px;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+}
+
+.radio{
+    width:45px;
+    height:45px;
+    background: transparent;
+  
+
+}
+.radio1{
+    background: rgb(233, 233, 233);
+    border: 10px solid rgb(93, 93, 207);
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left:20%;
+    width:100%;
+    height:100%;
+}
+.radio2{
+    background: rgb(233, 233, 233);
+    border: 10px solid rgb(93, 207, 131);
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left:20%;
+    width:100%;
+    height:100%;
+}
+.content{
+    width:70%;
+    margin-left: 5%;
+    text-align: left;
+    background: transparent;
+    font-size: 27px;
+    margin-top: 2.5%;
+}
+.content1{
+    width:70%;
+    margin-left: 5%;
+    text-align: left;
+    background: transparent;
+    font-size: 27px;
+    margin-top: 2.5%;
+    text-decoration: line-through;
+}
+.delete{
+    background:white;
+}
+.deletebutton{
+    background: white;
+    border: none;
+    margin-top: 30%;
+    margin-left: 90%;
+}
+/*left part completed*/
+
+
+
+/*right part start*/
+.subcontainer2{
+    width:50%;
+    margin: auto;
+   
+    width:40%;
+}
+.showright{
+    width:100%;
+    height: 60px;
+    background: white;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 8px;
+    margin-top: 3%;
+}
+.showright>h1{
+    background: transparent;
+    line-height: 5px;
+}
+
+.rightlist{
+    /* border:5px solid red; */
+    margin-top: 5%;
+    height:70vh;
+   overflow:auto;
+}
+/*right part completed*/
+
+@media screen and (max-width:870px) {
+
+    .maincontainer{
+        display:flex;
+        flex-direction:column;
+    }
+    .subcontainer1,.subcontainer2{
+        width:70%;
+    }
+    .addinput{
+        margin-left: 3%;
+    }
+    .showinput{
+        margin-left: 3%;
+    }
+    
+}
+@media screen and (max-width:420px){
+    .subcontainer1,.subcontainer2{
+        width:100%;
+    }
+    .input{
+        width:65.7%;
+    }
+    .showinput{
+        margin-left:4%;
+    }
+
+}
+@media screen and (max-width:360px) {
+    .subcontainer1,.subcontainer2{
+        width:100%;
+    }
+    .input{
+        width:65.7%;
+    }
+    .showinput{
+        margin-left:0%;
+    }
+}
