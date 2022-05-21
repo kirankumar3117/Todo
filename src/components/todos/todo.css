@@ -192,6 +192,10 @@
         margin-left:4%;
     }
 
+    .deletebutton{
+        margin-left:0%;
+    }
+
 }
 @media screen and (max-width:360px) {
     .subcontainer1,.subcontainer2{
