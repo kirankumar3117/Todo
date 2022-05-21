@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Todo1list from './Todo1list'
 import {v4 as uuidv4} from "uuid"
-import {BsFillCaretDownFill,BsFillCaretUpFill} from "react-icons/Bs"
+
 import {RiDeleteBin5Line} from "react-icons/Ri"
 
 const Todo1 = ({setList1,list1,handleDelete,handleremove}) => {
